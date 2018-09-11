@@ -98,10 +98,31 @@
 \end{frame}
 }
 
+\section{Agenda}
+\begin{frame}
+  \frametitle{Agenda}
+    \begin{itemize}
+        \item{What is OpenSource}
+        \item{Community and the Apache Way}
+        \item{The OpenStack Way}
+    \end{itemize}
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/black_bg.png}}
+
+\begin{frame}[c]
+  \begin{center}
+      \color{white}
+      \Huge Code?
+  \end{center}
+\end{frame}
+
 \usebackgroundtemplate{%
   \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/white_bg.png}}
 
 \section{Intro}
+
 \begin{frame}[c]
   \frametitle{An Open Source Talk}
     \begin{overlayarea}{\textwidth}{.2\textheight}
@@ -138,8 +159,63 @@
         \item{Is the API stable?}
         \item{Can I influence the design?}
         \item{How do I get involved?}
+        \item{Should I invest on it?}
+    \end{itemize}
+    \begin{itemize}
+        \item{Who's writing the software}
     \end{itemize}
 \end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/black_bg.png}}
+
+\begin{frame}[c]
+  \begin{center}
+      \color{white}
+      \Huge Community!
+  \end{center}
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/white_bg.png}}
+
+\begin{frame}
+  \frametitle{Community}
+  \begin{columns}
+    \column{0.5\linewidth}
+    \begin{itemize}
+        \item{People}
+        \begin{itemize}
+          \item{Developers}
+          \item{Users}
+          \item{Operators}
+        \end{itemize}
+    \end{itemize}
+    \column{0.5\linewidth}
+    \begin{itemize}
+        \item{Governance}
+        \item{Guiding principles}
+        \begin{itemize}
+            \item{Collaboration}
+            \item{Transparency}
+            \item{Respect}
+        \end{itemize}
+    \end{itemize}
+  \end{columns}
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/black_bg.png}}
+
+\begin{frame}[c]
+  \begin{center}
+      \color{white}
+      \Huge The OpenStack Way
+  \end{center}
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/white_bg.png}}
 
 \section{OpenStack}
 \begin{frame}
@@ -206,21 +282,44 @@
 \begin{frame}
   \frametitle{Open Design}
     \begin{itemize}
-        \item{...}
+        \item{Scope creep}
+        \item{Converges over time}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{Open Development}
     \begin{itemize}
-        \item{...}
+        \item{Code review in Gerrit}
+        \item{Shared tools, services and their configuration as code}
+        \item{QA, CI, Docs, I18n, Oslo, Release}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{Open Development}
+    \begin{columns}
+      \column{0.4\linewidth}
+        \begin{itemize}
+            \item{Development and CI aligned}
+            \item{Footprint of the development environment}
+            \item{Debuggability, reproducibility}
+        \end{itemize}
+        \column{0.6\linewidth}
+          \begin{figure}
+            \includegraphics[width=1\textwidth]{pictures/zuul_dashboard.png}
+            \caption{Zuul Dashboard}
+          \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Open Development}
     \begin{itemize}
-        \item{...}
+        \item{Community Lead QA}
+        \item{Project Testing Interface}
+        \item{Tools and frameworks with plugins}
+        \item{No centrally defined test plan or strategy}
     \end{itemize}
 \end{frame}
 
