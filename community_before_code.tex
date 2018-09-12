@@ -68,7 +68,10 @@
            \column{.45\linewidth}
            \centering
            Andrea Frittoli\\
+           ~\\
+           Developer Advocate @ IBM
            \href{mailto:andrea.frittoli@gmail.com}{andrea.frittoli@gmail.com}\\
+           @blackchip76\\
        \end{columns}
   }
   {Andrea Frittoli}
@@ -103,8 +106,10 @@
   \frametitle{Agenda}
     \begin{itemize}
         \item{What is OpenSource}
-        \item{Community and the Apache Way}
+        \item{Community}
+        \item{The Apache Way}
         \item{The OpenStack Way}
+        \item{Community Culture}
     \end{itemize}
 \end{frame}
 
@@ -114,7 +119,7 @@
 \begin{frame}[c]
   \begin{center}
       \color{white}
-      \Huge Code?
+      \Huge What is OpenSource?
   \end{center}
 \end{frame}
 
@@ -159,10 +164,9 @@
         \item{Is the API stable?}
         \item{Can I influence the design?}
         \item{How do I get involved?}
+        \item{Does it scale?}
+        \item{How do I operate it?}
         \item{Should I invest on it?}
-    \end{itemize}
-    \begin{itemize}
-        \item{Who's writing the software}
     \end{itemize}
 \end{frame}
 
@@ -184,22 +188,50 @@
   \begin{columns}
     \column{0.5\linewidth}
     \begin{itemize}
-        \item{People}
-        \begin{itemize}
-          \item{Developers}
-          \item{Users}
-          \item{Operators}
-        \end{itemize}
+      \item{Guiding principles}
+      \begin{itemize}
+          \item{Collaboration}
+          \item{Transparency}
+          \item{Respect}
+      \end{itemize}
     \end{itemize}
     \column{0.5\linewidth}
     \begin{itemize}
         \item{Governance}
-        \item{Guiding principles}
-        \begin{itemize}
-            \item{Collaboration}
-            \item{Transparency}
-            \item{Respect}
-        \end{itemize}
+    \end{itemize}
+  \end{columns}
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/black_bg.png}}
+
+\begin{frame}[c]
+  \begin{center}
+      \color{white}
+      \Huge The Apache Way
+  \end{center}
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/white_bg.png}}
+
+\begin{frame}
+  \frametitle{The Apache Way}
+  \begin{columns}
+    \column{0.5\linewidth}
+    \begin{itemize}
+      \item{Guiding principles}
+      \begin{itemize}
+          \item{Merit}
+          \item{Consensus}
+          \item{Community}
+          \item{Charity}
+      \end{itemize}
+    \end{itemize}
+    \column{0.5\linewidth}
+    \begin{itemize}
+        \item{Corporate Governance}
+        \item{Technical Governance}
     \end{itemize}
   \end{columns}
 \end{frame}
@@ -218,24 +250,6 @@
   \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/white_bg.png}}
 
 \section{OpenStack}
-\begin{frame}
-  \frametitle{A bit of history}
-  \begin{columns}
-    \column{0.5\linewidth}
-      \begin{itemize}
-          \item{2010: Rackspace and NASA create OpenStack}
-          \item{2012: OpenStack Foundation}
-          \item{2014: "The Big Tent"}
-      \end{itemize}
-    \column{0.5\linewidth}
-      \begin{figure}
-      \begin{center}
-        \includegraphics[width=1\textwidth]{graphs/commits.png}
-           \caption{Commits/year - Source: stackalytics.com}
-      \end{center}
-      \end{figure}
-  \end{columns}
-\end{frame}
 
 \begin{frame}
   \frametitle{The OpenStack way}
@@ -256,12 +270,32 @@
   \end{columns}
 \end{frame}
 
+\begin{frame}
+  \frametitle{The OpenStack Governance}
+  \begin{columns}
+    \column{0.5\linewidth}
+      \begin{itemize}
+          \item{2010: Rackspace and NASA create OpenStack}
+          \item{2012: OpenStack Foundation}
+          \item{2014: "The Big Tent"}
+      \end{itemize}
+    \column{0.5\linewidth}
+      \begin{figure}
+      \begin{center}
+        \includegraphics[width=1\textwidth]{graphs/commits.png}
+           \caption{Commits/year - Source: stackalytics.com}
+      \end{center}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
 \section{Opens}
 \begin{frame}
   \frametitle{Open Source}
     \begin{itemize}
         \item{Code on git.openstack.org}
-        \item{Apache 2.0 \& CLAs}
+        \item{Apache 2.0}
+        \item{CLAs or DCP}
         % Talk about contributor certificate or origin
         \item{No "open-core"}
     \end{itemize}
@@ -270,17 +304,10 @@
 \begin{frame}
   \frametitle{Open Design}
     \begin{itemize}
-        \item{What may I expect?}
-    \end{itemize}
-    \begin{itemize}
         \item{Specs as code}
         \item{Release notes automation}
         \item{Project update sessions}
     \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Open Design}
     \begin{itemize}
         \item{Scope creep}
         \item{Converges over time}
@@ -326,44 +353,74 @@
 \begin{frame}
   \frametitle{Open Community}
     \begin{itemize}
-        \item{...}
+        \item{Communication}
+        \item{Avoid off-the-record}
+        \item{Respectful and inclusive}
+        \item{Decision: lazy consensus}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{Open Community}
     \begin{itemize}
-        \item{...}
+        \item{People}
+        \item{Developers, users, operators}
+        \item{Trust}
+        \item{Mentorship, grow future leaders}
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Open Community}
-    \begin{itemize}
-        \item{...}
-    \end{itemize}
+\section{Community Culture}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/black_bg.png}}
+
+\begin{frame}[c]
+  \begin{center}
+      \color{white}
+      \Huge Community Culture
+  \end{center}
 \end{frame}
 
-\section{Culture}
-
-\begin{frame}
-  \frametitle{Principles}
-    \begin{itemize}
-        \item{...}
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Principles}
-    \begin{itemize}
-        \item{...}
-    \end{itemize}
-\end{frame}
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{_backgrounds/white_bg.png}}
 
 \begin{frame}
   \frametitle{Principles}
     \begin{itemize}
-        \item{...}
+        \item{Participation is Voluntary}
+        \item{We all should Always Follow the OpenStack Wayw}
+        \item{One OpenStack}
+        \item{OpenStack Primarily Produces Software}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Principles}
+    \begin{itemize}
+        \item{Representative Democracy}
+        \item{Leaders Serve their Community}
+        \item{Changes in Leadership are Good}
+        \item{One Contributor, One Vote}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Principles}
+    \begin{itemize}
+        \item{We value clear, friendly, and open communication}
+        \item{We Value Constructive Peer Review}
+        \item{Contribution Is Our Currency}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Principles}
+    \begin{itemize}
+        \item{OpenStack First, Project Team Second, Company Third}
+        \item{Empowering Businesses, on a Level Playing Field}
+        \item{We all should Always Follow the OpenStack Way}
+        \item{Participation is Voluntary}
     \end{itemize}
 \end{frame}
 
@@ -372,7 +429,9 @@
 \begin{frame}
   \frametitle{References}
   \begin{itemize}
-      \item{This talk: \href{https://github.com/afrittoli/community\_before\_code\_talk}{https://github.com/afrittoli/community\_before\_code\_talk}}
+      \item{The Apache Way: \href{https://www.apache.org/foundation/governance/}{https://www.apache.org/foundation/governance/}}
+      \item{The Four Opens: \href{https://governance.openstack.org/tc/reference/opens.html}{https://governance.openstack.org/tc/reference/opens.html}}
+      \item{Slides: \href{https://github.com/afrittoli/community\_before\_code\_talk}{https://github.com/afrittoli/community\_before\_code\_talk}}
   \end{itemize}
 \end{frame}
 
